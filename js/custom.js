@@ -87,8 +87,8 @@ function searchbox() {
 
 // ===Prealoder===
 function prealoader() {
-    if ($('.loader').length) {
-      $('.loader').delay(200).fadeOut(500);
+    if ($('.preloader').length) {
+      $('.preloader').delay(200).fadeOut(500);
     }
 }
 
