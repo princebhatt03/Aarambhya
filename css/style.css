@@ -474,7 +474,7 @@ li {
   background-color: #ffffff;
   background-position: center center;
   background-repeat: no-repeat;
-  background-image: url(../images/icon/preloader.gif);
+  background-image: url(../images/img/loading.gif);
 }
 .preloader.style-two {
   background-image: url(../images/home-pages/preloader-2.html);
