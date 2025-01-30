@@ -1,49 +1,13 @@
-/***************************************************************************************************************
-||||||||||||||||||||||||||||        CUSTOM SCRIPT FOR INTEXURE                      ||||||||||||||||||||||||||||
-****************************************************************************************************************
-||||||||||||||||||||||||||||              TABLE OF CONTENT                  ||||||||||||||||||||||||||||||||||||
-****************************************************************************************************************
-****************************************************************************************************************
-
-01. Revolution slider
-02. Sticky header
-03. Prealoader
-04. Language switcher
-05. prettyPhoto
-06. BrandCarousel
-07. Testimonial carousel
-08. ScrollToTop 
-09. Cart Touch Spin
-10. PriceFilter
-11. Cart touch spin
-12. Fancybox activator
-13. ContactFormValidation
-14. Scoll to target
-15. PrettyPhoto
-
-****************************************************************************************************************
-||||||||||||||||||||||||||||            End TABLE OF CONTENT                ||||||||||||||||||||||||||||||||||||
-****************************************************************************************************************/
-
 "use strict";
 
-
-
-//====Main menu===
 function mainmenu() {
-	//Submenu Dropdown Toggle
 	if($('.main-menu li.dropdown ul').length){
 		$('.main-menu li.dropdown').append('<div class="dropdown-btn"></div>');
-		
-		//Dropdown Button
 		$('.main-menu li.dropdown .dropdown-btn').on('click', function() {
 			$(this).prev('ul').slideToggle(500);
 		});
 	}
 }
-
-
-//===Language switcher===
 function languageSwitcher() {
     if ($("#polyglot-language-options").length) {
         $('#polyglotLanguageSwitcher').polyglotLanguageSwitcher({
@@ -57,7 +21,6 @@ function languageSwitcher() {
         });
     };
 }
-
 
 //===Header Sticky===
 function stickyHeader() {
@@ -124,8 +87,8 @@ function searchbox() {
 
 // ===Prealoder===
 function prealoader() {
-    if($('.preloader').length){
-        $('.preloader').delay(200).fadeOut(500);
+    if ($('.loader').length) {
+      $('.loader').delay(200).fadeOut(500);
     }
 }
 
