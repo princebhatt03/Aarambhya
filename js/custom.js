@@ -1,13 +1,24 @@
+
+
 "use strict";
 
+
+
+//====Main menu===
 function mainmenu() {
+	//Submenu Dropdown Toggle
 	if($('.main-menu li.dropdown ul').length){
 		$('.main-menu li.dropdown').append('<div class="dropdown-btn"></div>');
+		
+		//Dropdown Button
 		$('.main-menu li.dropdown .dropdown-btn').on('click', function() {
 			$(this).prev('ul').slideToggle(500);
 		});
 	}
 }
+
+
+//===Language switcher===
 function languageSwitcher() {
     if ($("#polyglot-language-options").length) {
         $('#polyglotLanguageSwitcher').polyglotLanguageSwitcher({
@@ -21,6 +32,7 @@ function languageSwitcher() {
         });
     };
 }
+
 
 //===Header Sticky===
 function stickyHeader() {
@@ -87,8 +99,8 @@ function searchbox() {
 
 // ===Prealoder===
 function prealoader() {
-    if ($('.preloader').length) {
-      $('.preloader').delay(200).fadeOut(500);
+    if($('.preloader').length){
+        $('.preloader').delay(200).fadeOut(500);
     }
 }
 
