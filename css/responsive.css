@@ -841,10 +841,15 @@
   .logo-box-style2 {
     position: absolute;
     margin: 0;
-    top: 0px;
+    top: 7px;
     left: 20px;
-    margin: 15px 0;
     z-index: 33;
+  }
+
+  .logo {
+    cursor: pointer;
+    width: 80px;
+    height: 60px;
   }
 
   .mainmenu-right.style2 {
@@ -1400,8 +1405,7 @@
   }
   .logo-box-style1 {
     position: absolute;
-    margin: 22px 0 23px;
-    top: 0;
+    top: -10px;
     left: 10px;
     float: none !important;
     z-index: 33;
@@ -1686,7 +1690,7 @@
   .logo-box-style2 {
     position: absolute;
     margin: 0;
-    top: 0px;
+    top: -10px;
     left: 10px;
     margin: 22px 0 23px;
     z-index: 33;

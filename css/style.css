@@ -89,8 +89,9 @@ a:focus {
 }
 
 .logo {
-  width: 80px;
-  height: 100px;
+  cursor: pointer;
+  width: 100px;
+  height: 70px;
 }
 
 /* #1c436c */
@@ -3548,7 +3549,7 @@ select:focus {
 .logo-box-style2 {
   position: relative;
   display: block;
-  margin: 20px 0;
+  margin: 10px 0;
   transition: all 500ms ease 100ms;
 }
 .logo-box-style2 a {
